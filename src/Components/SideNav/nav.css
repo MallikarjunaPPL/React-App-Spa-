@@ -1,0 +1,72 @@
+.nav_cont{
+    width:30%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius:6px;
+    border-color: darkmagenta;
+    margin-right:30px;
+    margin-left:30px;
+    margin-top:89px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.nav_head{
+    font-family: "Adobe Arabic";
+    font-size:23px;
+   
+    color:black;
+}
+.paragraph{
+    font-family: "Adobe Arabic";
+    font-size:21px;
+   color:grey
+}
+.img_sty{
+    height:270px;
+    width:230px;
+    border-radius: 50px;
+}
+.worker_cont{
+    border-style: solid;
+    border-width: 2px;
+    border-radius:6px;
+    border-color: darkmagenta;
+    margin:20px;
+}
+.icon_sty{
+    height:40px;
+    width:50px;
+    border-radius: 50px;
+    padding-left:19px;
+    padding-right:9px;
+    padding-top:13px;
+}
+.co_work{
+    display: flex;
+
+}
+.co_para{
+    color:black;
+}
+@media (max-width:912px){
+    .img_sty{
+        height:100px;
+        width:60px;
+        border-radius: 30px;
+    }
+    .co_work{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .icon_sty{
+        height:30px;
+        width:30px;
+        border-radius: 20px;
+      
+    }
+    .co_para{
+        color:black;
+        font-size:14px;
+    }
+}
